@@ -1,0 +1,83 @@
+.textColor {
+    color: #D4EAE9;
+}
+.textColor1 {
+    color: #EAB41E;
+}
+.textColor2 {
+    color: #A0A79D;
+}
+.bg {
+    background-color: #082E4E;
+}
+.navbg {
+    background-color: #0E273C;
+}
+.activePage {
+    background-color: #082E4E;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    width: max-content;
+    color: #EAB41E;
+}
+#icon:hover {
+    color: #EAB41E;
+}
+#collapsenav a:hover {
+    background-color: #082f4e8e;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    width: max-content;
+    color: #EAB41E;
+}
+.navFlex {
+    display: flex;
+    justify-content: end;
+}
+@keyframes move2 {
+    from {
+      transform: translate(-100%, 0rem);
+    }
+    to {
+      transform: translate(0%, 0rem);
+    }
+}
+.leftBody {
+    margin: 300px 50px;
+    animation: move2 2s;
+}
+.rightBody {
+    margin: 250px 50px;
+}
+.button {
+    border: #EAB41E;
+    color: #EAB41E;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.button:hover {
+    color: #D4EAE9;
+    background-color: #EAB41E;
+}
+@keyframes move {
+  from {
+    transform: translate(100%, 0rem);
+  }
+  to {
+    transform: translate(0%, 0rem);
+  }
+}
+.rotate {
+    animation: move 2s;
+}
+.centerBody {
+    margin: 150px 50px;
+}
+.toRight{
+    animation: move2 2s;
+}
+.toLeft{
+    animation: move 2s;
+}
